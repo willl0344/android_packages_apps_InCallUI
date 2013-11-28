@@ -56,6 +56,10 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/incall_call_banner_text_color"
             android:ellipsize="marquee"
+            android:shadowColor="#333"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
             android:singleLine="true"/>
     </FrameLayout>
 
@@ -74,5 +78,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/incall_call_banner_text_color"
         android:textAllCaps="true"
+        android:shadowColor="#333"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"
         android:singleLine="true" />
 </FrameLayout>
