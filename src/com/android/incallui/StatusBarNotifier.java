@@ -523,7 +523,7 @@ public class StatusBarNotifier implements InCallPresenter.InCallStateListener {
     }
 
     private void addAnswerAction(Notification.Builder builder) {
-        builder.addAction(R.drawable.stat_sys_phone_call,
+        builder.addAction(R.drawable.stat_sys_phone_call_ans,
                 mContext.getText(R.string.description_target_answer),
                 createAnswerIncomingCallPendingIntent(mContext));
     }
